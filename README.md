@@ -61,10 +61,10 @@ Nella chat digita:
 
 Cosa osservare: Copilot identificherà la stringa di connessione esposta e ti suggerirà di usare User Secrets o le variabili di ambiente di .NET.
 
-Step 4: Integrazione Frontend-Backend
+## Step 4: Integrazione Frontend-Backend
 Seleziona il codice del componente React e chiedi:
 
-"Genera il codice TypeScript per chiamare l'API di creazione task che abbiamo appena scritto nel backend. Usa Fetch API."
+"Genera il codice TypeScript per chiamare l'API di creazione not che abbiamo appena scritto nel backend. Usa Fetch API."
 
 Cosa osservare: Copilot leggerà il contesto del backend (anche se è un linguaggio diverso) per mappare correttamente gli oggetti JSON tra C# e TypeScript.
 
