@@ -47,7 +47,7 @@ Cosa osservare: Copilot genererà la struttura della soluzione (.sln), il proget
 Apri il file Program.cs del backend e chiedi nella chat:
 
 "Aggiungi un endpoint POST per creare una nota. Usa un Primary Constructor per il servizio di gestione."
-
+"Aggungimi Scalar per la visualizzazione degli endpoint"
 
 Cosa osservare: Vedrai come Copilot usa la sintassi compatta dei Primary Constructors e le Minimal APIs, documentando tutto in italiano come richiesto dalle istruzioni.
 
