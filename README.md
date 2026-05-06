@@ -1,8 +1,5 @@
-# Copilot-demo
+# Copilot-demo - Full Stack: .NET 10 + React.
 Copilot demo for DotNet Liguria 
-
-Full Stack: .NET 10 + React.
-
 
 ```
 mkdir copilot-dotnet-demo && cd copilot-dotnet-demo
