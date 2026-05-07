@@ -70,3 +70,27 @@ Comandi Bonus per .NET 10:
 
 #selection: Seleziona un pezzo di codice C# e scrivi "Converti in una espressione switch moderna" per mostrare la conoscenza del linguaggio.
 
+## Step 5: Creiamo l'Agent "Tech Lead"
+
+
+```
+name: Tech Lead
+description: Agente specializzato in architettura software, best practices .NET 10 e pattern architetturali.
+instructions: |
+  Sei un Senior Tech Lead. Il tuo obiettivo è garantire che il codice rispetti i principi SOLID, la pulizia e le performance.
+  - Rispondi sempre in italiano.
+  - Quando ti viene chiesto di revisionare il codice, suggerisci miglioramenti sulla gestione degli errori e sull'iniezione delle dipendenze.
+  - Non scrivere codice direttamente, ma spiega l'approccio architetturale ideale.
+skills:
+  - name: review-code
+    description: Analizza la complessità e le dipendenze del codice selezionato.
+```
+
+Digita nella chat standard:
+
+"@workspace carica il nuovo agente @techlead"
+
+Apri il file Program.cs del backend e scrivi all'agente:
+
+"@techlead /review-code ho creato questo endpoint per salvare un task. Cosa ne pensi dal punto di vista architetturale?"
+
