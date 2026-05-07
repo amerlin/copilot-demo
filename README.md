@@ -72,6 +72,7 @@ Comandi Bonus per .NET 10:
 
 ## Step 5: Creiamo l'Agent "Tech Lead"
 
+Crea il file di configurazione nella cartella .github/copilot-agents.yaml
 
 ```
 name: Tech Lead
